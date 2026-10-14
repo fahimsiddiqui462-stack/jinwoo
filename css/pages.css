@@ -1,0 +1,656 @@
+/* ===================================================================
+   JINWOO — Sub pages (about / services / portfolio / reviews / contact)
+=================================================================== */
+
+.page-hero {
+  padding: 7% 6% 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 22px;
+  position: relative;
+}
+
+.page-badge {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6cc8ff;
+  border: 1px solid rgba(31, 142, 255, .4);
+  padding: 8px 18px;
+  border-radius: 40px;
+  background: rgba(31, 142, 255, .08);
+}
+
+.page-hero h1 {
+  font-size: 64px;
+  line-height: 1.05;
+  font-weight: 800;
+  color: #fff;
+}
+
+.page-hero h1 span {
+  background: linear-gradient(90deg, #1F8EFF, #00f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.page-hero p {
+  max-width: 640px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #cccccc;
+}
+
+.page-hero-btn {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 16px 34px;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #1F8EFF, #00c6ff);
+  box-shadow: 0 12px 30px rgba(31, 142, 255, .35);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.page-hero-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(31, 142, 255, .5);
+}
+
+.page-section {
+  width: 98%;
+  margin: auto;
+  padding: 4% 1%;
+}
+
+.sec-title {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.sec-title h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #fff, rgba(72, 185, 255, .68));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec-title p {
+  margin-top: 12px;
+  color: #aaa;
+  font-size: 15px;
+}
+
+/* ---------- About ---------- */
+.about-grid,
+.contact-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 44px;
+  flex-wrap: wrap;
+}
+
+.about-grid > div {
+  width: 46%;
+}
+
+.about-text h2 {
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.about-text h2 span {
+  background: linear-gradient(90deg, #1F8EFF, #00f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text p {
+  margin-top: 18px;
+  color: #ccc;
+  line-height: 28px;
+  font-size: 15px;
+}
+
+.about-img {
+  position: relative;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid rgba(31, 142, 255, .3);
+  display: block;
+}
+
+.about-img::after {
+  content: "";
+  position: absolute;
+  inset: 16px -16px -16px 16px;
+  border-radius: 18px;
+  border: 2px solid rgba(31, 142, 255, .25);
+  z-index: -1;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.stat {
+  flex: 1 1 160px;
+  text-align: center;
+  padding: 26px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  background: #121212;
+  transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease;
+}
+
+.stat:hover {
+  transform: translateY(-6px);
+  border-color: rgba(31, 142, 255, .5);
+  box-shadow: 0 14px 32px rgba(31, 142, 255, .2);
+}
+
+.stat h3 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #1F8EFF, #00f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat p {
+  margin-top: 8px;
+  color: #bbb;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.mission {
+  display: flex;
+  gap: 26px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mission-card {
+  flex: 1 1 280px;
+  padding: 30px 26px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(307.18deg, rgba(255, 255, 255, .42) 6.49%, rgba(102, 102, 102, 0) 50.42%, rgba(255, 255, 255, .42) 93.51%) border-box;
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 36px rgba(31, 142, 255, .22);
+}
+
+.mission-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 16px 0 10px;
+  color: #fff;
+}
+
+.mission-card p {
+  color: #ccc;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+/* ---------- Services detail ---------- */
+.service-detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+.service-card {
+  border-radius: 16px;
+  padding: 30px 26px;
+  border: 1px solid rgba(255, 255, 255, .09);
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(307.18deg, rgba(255, 255, 255, .42) 6.49%, rgba(102, 102, 102, 0) 50.42%, rgba(255, 255, 255, .42) 93.51%) border-box;
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 38px rgba(31, 142, 255, .22);
+}
+
+.service-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.service-top img {
+  width: 52px;
+  height: 52px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.service-card p {
+  color: #ccc;
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
+.service-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-card ul li {
+  font-size: 13px;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-card ul li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free", "Font Awesome", fontawesome;
+  color: #1F8EFF;
+  font-size: 12px;
+}
+
+.process {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.process .step {
+  flex: 1 1 180px;
+  text-align: center;
+  padding: 24px 14px;
+  border-radius: 14px;
+  border: 1px dashed rgba(31, 142, 255, .35);
+  transition: transform .35s ease, background .35s ease;
+}
+
+.process .step:hover {
+  transform: translateY(-6px);
+  background: rgba(31, 142, 255, .06);
+}
+
+.process .step .step-num {
+  font-size: 14px;
+  color: #9ad0ff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.process .step h3 {
+  margin: 10px 0 8px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.process .step p {
+  font-size: 12px;
+  color: #bbb;
+  line-height: 20px;
+}
+
+/* ---------- Portfolio ---------- */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.portfolio-item {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio-item img {
+  width: 100%;
+  display: block;
+  transition: transform .6s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.07);
+}
+
+.p-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .85));
+  opacity: 0;
+  transition: opacity .4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 22px;
+  box-sizing: border-box;
+}
+
+.portfolio-item:hover .p-overlay {
+  opacity: 1;
+}
+
+.p-overlay h3 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.p-overlay p {
+  font-size: 12px;
+  color: #9ad0ff;
+  margin-top: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ---------- Reviews ---------- */
+.review-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 44px;
+}
+
+.review-summary .stars img {
+  width: 26px;
+  height: 26px;
+}
+
+.review-summary h3 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.review-summary p {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* reuse comment card look on review cards */
+.reviews-grid .comment-1 {
+  width: auto;
+}
+
+/* ---------- Contact ---------- */
+.contact-wrap .contact-info {
+  width: 38%;
+}
+
+.contact-wrap .contact-form {
+  width: 55%;
+}
+
+.contact-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .07);
+}
+
+.contact-item .c-icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 50%;
+  background: rgba(31, 142, 255, .12);
+  color: #1F8EFF;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item h3 {
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.contact-item p,
+.contact-item a {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 22px;
+}
+
+.contact-item a:hover {
+  color: #6cc8ff;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 34px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  background: #0d0d12;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9ad0ff;
+}
+
+.form-group input,
+.form-group textarea {
+  background: #12141a;
+  border: 1px solid rgba(255, 255, 255, .12);
+  color: #fff;
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color .3s ease, box-shadow .3s ease;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #1F8EFF;
+  box-shadow: 0 0 0 3px rgba(31, 142, 255, .18);
+}
+
+.submit-btn {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 16px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #1F8EFF, #00c6ff);
+  box-shadow: 0 10px 26px rgba(31, 142, 255, .35);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(31, 142, 255, .5);
+}
+
+.form-success {
+  display: none;
+  text-align: center;
+  padding: 26px;
+  border-radius: 14px;
+  border: 1px solid rgba(46, 213, 115, .4);
+  background: rgba(46, 213, 115, .08);
+  color: #2ed573;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form-success.show {
+  display: block;
+}
+
+/* ---------- CTA band ---------- */
+.cta-band {
+  width: 86%;
+  margin: 3% auto 6%;
+  text-align: center;
+  padding: 56px 34px;
+  border-radius: 22px;
+  border: 1px solid rgba(31, 142, 255, .3);
+  background: radial-gradient(120% 120% at 50% 0%, rgba(31, 142, 255, .16), transparent 60%), #0d0d12;
+}
+
+.cta-band h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.cta-band p {
+  margin: 12px auto 26px;
+  color: #bbb;
+  max-width: 460px;
+  line-height: 24px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .page-hero h1 {
+    font-size: 52px;
+  }
+
+  .portfolio-grid,
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .about-grid > div {
+    width: 100%;
+  }
+
+  .about-img {
+    order: -1;
+  }
+
+  .service-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-wrap .contact-info,
+  .contact-wrap .contact-form {
+    width: 100%;
+  }
+
+  .page-hero {
+    padding-top: 12%;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-hero h1 {
+    font-size: 38px;
+  }
+
+  .page-hero p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .sec-title h2 {
+    font-size: 28px;
+  }
+
+  .portfolio-grid,
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-text h2 {
+    font-size: 28px;
+  }
+
+  .stat h3 {
+    font-size: 32px;
+  }
+
+  .contact-form form {
+    padding: 24px 18px;
+  }
+
+  .cta-band {
+    width: 92%;
+    padding: 40px 20px;
+  }
+
+  .cta-band h2 {
+    font-size: 26px;
+  }
+
+  .review-summary h3 {
+    font-size: 22px;
+  }
+}

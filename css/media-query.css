@@ -1,0 +1,802 @@
+@media (max-width:1024px) {
+    .head-1 {
+    width: 20%;
+}
+
+.head-2 {
+    width: 61%;
+display: flex;
+justify-content: center;
+}
+
+.head-2 ul li a {
+    font-size: 14px;
+ 
+}
+.head-3 {
+    width: 15%;
+}
+
+.hero-1 {
+    width: 53%;
+}
+
+.hero-2 {
+    width: 47%;
+    min-height: 423px;
+}
+
+.para-1 {
+    width: 78%;
+}
+.information p, .hero-1 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.ancs {
+    width: 70%;
+}
+
+.card {
+    max-height: 381px;
+}
+
+.content-1 {
+    width: 81%;
+}
+
+.projects-2 h1, .projects h1, .benefit-1 h1, .heading h1, .information h1 {
+    width: 59%;
+    font-size: 32px;
+    line-height: 41px;
+}
+
+
+
+.information p {
+    width: 44%;
+}
+
+.service-1 {
+    width: 20%;
+    padding: 3% 2% 2% 2%;}
+
+.service-1 h2 {
+    font-size: 18px;
+}
+.service-1 p{
+    min-height: 127px;
+    font-size: 11px;
+}
+
+.benefit-1 a, .service-1 a {
+    width: 53%;
+}
+
+.contact-1 {
+    width: 33%;
+}
+
+.projects-2 h1, .projects h1, .benefit-1 h1, .heading h1, .information h1 {
+    width: 81%;
+}
+
+.benefit-1-1 {
+    width: 39%;
+}
+
+.benefit-1 p {
+    font-size: 14px;
+}
+
+.diamond-box {
+    width: 83%;
+}
+
+.project {
+    min-height: 210px;
+    bottom: 45px;
+}
+
+.project p {
+    font-size: 21px;
+}
+
+.benefit-1 a, .service-1 a {
+    width: 52%;
+}
+
+.comment-1 p, .content-2 p {
+    font-size: 9px;
+}
+
+.intro img {
+    width: 22%;
+}
+
+.comment-1 a {
+    font-size: 11px;
+}
+
+.foot-1 p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.one {
+    width: 7%;
+}
+
+.foot-2 ul li a {
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.foot-2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-2 h2 span {
+    font-size: 24px;
+}
+
+.footer-2 h2 {
+    font-size: 18px;
+}
+}
+
+@media (max-width:768px) {
+
+    .header{
+        gap: 30px;
+    }
+
+    .head-1 {
+    width: 21%;
+}
+
+    .head-1 h1 {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.head-2 {
+    width: 62%;
+}
+
+.head-2 ul{
+    gap: 20px;
+}
+
+.head-2 ul li a{
+    font-size: 14px;
+}
+
+.head-3 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.head-3 a {
+    color: #FFFFFF;
+    padding: 2% 3%;
+}
+
+.head-2 ul li a {
+    font-size: 13px;
+}
+
+.head-2 ul {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-1 h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.para-1 {
+    width: 95%;
+}
+
+.ancs {
+    width: 92%;
+}
+
+.hero-2 {
+    min-height: 314px;
+}
+
+.title h1 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.description p {
+    font-size: 11px;
+}
+
+.content-1 h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+.card {
+    width: 49%;
+    max-height: 357px;
+}
+
+.projects-2 h1, .projects h1, .benefit-1 h1, .heading h1, .information h1 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.information p, .hero-1 p {
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.services{
+    justify-content: center;
+    gap: 75px;
+}
+.service-1 {
+    width: 30%;
+}
+
+.contact-1 {
+    width: 45%;
+}
+
+.benefit-1-1 {
+    width: 52%;
+}
+
+.projects-2 h1, .projects h1, .benefit-1 h1, .heading h1, .information h1 {
+    font-size: 27px;
+    line-height: 38px;
+}
+
+
+.information h1 {
+    width: 54%;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.benefit-1 p {
+    font-size: 11px;
+}
+
+.diamond-content p {
+    font-size: 10px;
+}
+
+.diamond-box {
+    width: 89%;
+}
+
+.project {
+    width: 50%;
+    min-height: 188px;
+    bottom: 100px;
+    left: 18px;
+}
+
+.project p {
+    font-size: 19px;
+}
+
+
+.comments {
+    justify-content: center;
+    gap: 30px;
+}
+
+.comment-1 {
+    width: 31%;
+    padding: 3% 3% 3% 3%;
+}
+
+.footer{
+    justify-content: center;
+    gap: 45px;
+}
+
+.foot-1 {
+    width: 41%;
+}
+
+.foot-2 {
+    width: 21%;
+}
+
+.foot-4{
+    width: 30%;
+}
+}
+
+@media (max-width:640px) {
+
+    .footer-2 h2 {
+    font-size: 15px;
+}
+    .footer-2 h2 span {
+    font-size: 18px;
+}
+
+.foot-1 {
+    width: 50%;
+}
+
+.foot-2{
+    width: 32%;
+}
+
+.foot-3{
+    width: 50%;
+}
+
+.comment-1 {
+    width: 36%;
+}
+
+.comment-1 p, .content-2 p {
+    font-size: 10px;
+}
+
+.head-1 h1 {
+    font-size: 37px;
+    line-height: 37px;
+}
+
+.head-2 {
+    width: 71%;
+}
+
+.hero-1 h1 {
+    font-size: 41px;
+    line-height: 50px;
+}
+
+.ancs a {
+    font-size: 16px;
+}
+
+.anc3::after, .benefit-1 a::after, .service-1 a::after, .ancs a:nth-child(2)::after {
+    font-size: 20px;
+}
+
+.hero-2 {
+    min-height: 423px;
+}
+
+.cards{
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    width: 66%;
+    max-height: max-content;
+padding: 6% 6% 4% 4%;
+}
+
+.information h1 {
+    width: 53%;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.information p, .hero-1 p {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.service-1 {
+    width: 36%;
+}
+
+.contact-1 {
+    width: 53%;
+}
+
+.benefit-1-1 {
+    width: 62%;
+}
+
+.projects-2 h1, .projects h1, .benefit-1 h1, .heading h1, .information h1 {
+    width: 95%;
+    font-size: 26px;
+}
+
+.benefit-1 p {
+    font-size: 10px;
+    line-height: 23px;
+}
+
+.diamond-box {
+    width: 95%;
+}
+
+
+.diamond-content h2 {
+    font-size: 22px;
+}
+.diamond-box {
+    width: 100%;
+}
+
+.project {
+    width: 60%;
+    min-height: 188px;
+    bottom: 116px;
+    left: 43px;
+}
+
+.benefit-1 a, .service-1 a {
+    width: 57%;
+}
+
+.projects-2 p, .projects p {
+    font-size: 14px;
+}
+
+.comment-1 {
+    width: 40%;
+}
+}
+
+@media (max-width:480px) {
+ .header{
+    gap: 20px;
+ }
+ 
+    .head-1 {
+    width: 34%;
+}
+
+.head-2 {
+    width: 96%;
+}
+
+.head-3 a {
+    padding: 3% 5%;
+}
+
+.hero-1 h1 {
+    font-size: 31px;
+    line-height: 42px;
+}
+
+.ancs a {
+    font-size: 12px;
+}
+
+.anc3::after, .benefit-1 a::after, .service-1 a::after, .ancs a:nth-child(2)::after {
+    font-size: 16px;
+}
+
+.hero-2 {
+    min-height: 198px;
+}
+
+.card {
+    width: 80%;
+}
+
+.information {
+    text-align: center;
+    justify-content: center;
+}
+
+.information p {
+    width: 83%;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.service-1 {
+    width: 58%;
+        padding: 3% 2% 4% 3%;
+
+}
+
+.service-1 img {
+    width: 75px;
+    height: 75px;
+}
+ .service-1 a {
+    width: 41%;
+}
+
+.contact-1 {
+    width: 80%;
+}
+
+.icon-box-2 {
+    width: 50%;
+}
+
+.benefit-1 {
+    width: 66%;
+}
+
+.benefit-1 {
+    width: 75%;
+}
+.benefit-1-1 {
+    width: 57%;
+}
+
+.benefit-1 a {
+    width: 49%;
+}
+
+.benefit-2 {
+    width: 100%;
+}
+
+.project {
+    width: 42%;
+    min-height: 197px;
+}
+
+.projects-2 p, .projects p {
+    font-size: 10px;
+}
+
+.comment-1 {
+    width: 55%;
+    padding: 4% 4% 4% 4%;
+}
+.foot-4,
+.foot-2,
+.foot-3,
+.foot-1 {
+    width: 70%;
+}
+
+.footer {
+    padding: 6% 1%;
+}
+
+.footer-2 h2 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-2 {
+    text-align: center;
+}
+
+}
+
+@media (max-width:360px) {
+  .header{
+    gap: 15px;
+  }
+  
+    .head-2 ul li a {
+    font-size: 10px;
+}
+
+.head-2 ul {
+    gap: 10px;
+}
+
+.hero-1 h1 {
+    font-size: 23px;
+    line-height: 33px;
+}
+
+.hero-1 p {
+    font-size: 9px;
+    line-height: 17px;
+}
+
+.anc3::after, .benefit-1 a::after, .service-1 a::after, .ancs a:nth-child(2)::after {
+    font-size: 11px;
+}
+
+.ancs a {
+    font-size: 8px;
+}
+
+.hero-2 {
+    min-height: 146px;
+}
+
+.card {
+    width: 98%;
+            padding: 6% 6% 6% 5%;
+}
+.title h1 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.description p {
+    font-size: 10px;
+    line-height: 21px;
+}
+
+.content-1 p {
+    font-size: 10px;
+    line-height: 17px;
+}
+
+.content-1 h2 {
+    font-size: 18px;
+    line-height: 14px;
+}
+
+.information h1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.information p {
+    width: 92%;
+    line-height: 22px;
+}
+
+.projects-2 h1, .projects h1, .benefit-1 h1, .heading h1, .information h1 {
+    width: 100%;
+    font-size: 21px;
+}
+
+.service-1 {
+    width: 77%;
+    padding: 3% 2% 4% 4%;
+}
+
+.service-1 p {
+    min-height: 100px;
+}
+
+.contact-1 a {
+    width: 45%;
+    padding: 6% 8%;
+}
+
+.icon-box-2 {
+    width: 73%;
+}
+
+
+.benefit-1 h1 {
+  line-height: 36px;
+  font-size: 26px;
+}
+
+.benefit-1 {
+    width: 87%;
+}
+
+.benefit-1-1 {
+    width: 64%;
+}
+
+.diamond-content h2 {
+    font-size: 21px;
+}
+
+.benefit-1 a {
+    width: 49%;
+    font-size: 17px;
+}
+
+.project {
+    width: 54%;
+    min-height: 190px;
+}
+
+.projects-2 p, .projects p {
+    font-size: 8px;
+    line-height: 13px;
+}
+ .projects h1 {
+    font-size: 23px;
+}
+
+.projects-2 h1 {
+    font-size: 20px;
+}
+
+.comment-1 {
+    width: 70%;
+}
+
+.foot-4, .foot-2, .foot-3, .foot-1 {
+    width: 94%;
+}
+
+.footer-2 h2 {
+    font-size: 13px;
+}
+}
+
+@media (max-width:320px) {
+    .head-2 ul li a {
+    font-size: 9px;
+}
+
+.head-1 {
+    width: 51%;
+}
+
+.head-1 h1 {
+    font-size: 31px;
+    line-height: 30px;
+}
+
+
+.header {
+    gap: 10px;
+}
+
+.head-3 a {
+    padding: 2% 3%;
+    font-size: 14px;
+}
+
+.hero-1 h1 {
+    line-height: 28px;
+}
+
+.hero-1 p {
+    font-size: 8px;
+    line-height: 14px;
+}
+
+.anc3::after, .benefit-1 a::after, .service-1 a::after, .ancs a:nth-child(2)::after {
+    font-size: 10px;
+}
+
+.hero-2 {
+    min-height: 127px;
+}
+
+.hero-1 {
+    min-height: 265px;
+}
+
+.information p {
+
+font-size: 10px;    line-height: 18px;
+}
+
+.information h1 {
+    line-height: 26px;
+}
+
+.service-1 p {
+    min-height: 80px;
+}
+
+.service-1 {
+    width: 80%;
+    padding: 3% 4% 6% 4%;
+}
+
+.benefit-1 p {
+    line-height: 19px;
+}
+
+.project {
+    width: 54%;
+    min-height: 169px;
+}
+
+.foot-1 p {
+    padding-right: 7%;
+    font-size: 12px;
+    line-height: 21px;
+}
+}
+
